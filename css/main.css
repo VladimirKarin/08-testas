@@ -3,6 +3,8 @@
 :root {
     --main-bg: #74c69d;
     --secondary-by: #fff;
+    --btn-background-1: #fff;
+    --btn-background-2: #000;
     --first-font-color: #fff;
     --second-font-color: #000;
     --third-font-color: #74c69d;
@@ -149,16 +151,20 @@ body {
 }
 /* NAV ENDs */
 
+/* Header content */
+
 header {
     background-color: var(--main-bg);
     padding: 17px 20px 0 20px;
     text-align: left;
+    margin-bottom: 30px;
 }
 h2 {
     font-family: var(--main-font);
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
+    text-transform: uppercase;
 }
 h1 {
     font-family: var(--secondary-font);
@@ -174,10 +180,13 @@ p {
 
 .header-description .section-title {
     color: var(--first-font-color);
+    margin-bottom: 20px;
 }
 
 .header-description .main-title {
     color: var(--first-font-color);
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .header-description .description {
@@ -186,17 +195,86 @@ p {
     line-height: 18.75px;
 }
 
-.body-description > .main-description {
-    font-size: 24px;
-    line-height: 30px;
+.header-content .header-img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
-.body-description .description {
+/*Button*/
+.btn {
+    display: inline-block;
+    margin: 30px 0 45px;
+    background-color: var(--btn-background-1);
+    padding: 13px 48px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
     color: var(--second-font-color);
-    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Body Text */
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+.body-description {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.body-description .section-title {
+    color: var(--third-font-color);
+    margin-bottom: 10px;
+}
+
+.body-description > .main-title {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.body-description > .main-description .body-description .description {
+    color: var(--second-font-color);
+    font-size: 18px;
     line-height: 25px;
 }
 
-header .header-img {
-    width: 300px;
+/* Brand Logo's  */
+body .brands {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands img {
+    margin-bottom: 25px;
+}
+
+.body-btn {
+    background-color: var(--btn-background-2);
+    color: var(--first-font-color);
+}
+
+/* Footer */
+
+footer {
+    padding: 30px;
+    background-color: var(--main-bg);
+    color: var(--first-font-color);
+}
+
+footer .fa-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+footer .footer-description {
+    font-size: 15px;
 }
