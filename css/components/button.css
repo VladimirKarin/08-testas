@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 45px;
+    background-color: #fff;
+    padding: 13px 48px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+}
+
+.body-btn {
+    background-color: #000;
+    color: #fff;
+}
