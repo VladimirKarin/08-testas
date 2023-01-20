@@ -64,12 +64,6 @@ p {
 
 /* Responsive */
 
-@media (min-width: 992px) {
-    .header-content .header-img {
-        margin-top: 25px;
-        size: 400px;
-        float: right;
-    }
 
     .main .main-title {
         font-size: 40px;

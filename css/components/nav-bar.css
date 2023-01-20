@@ -7,7 +7,7 @@
 }
 
 .header-nav a {
-    color: var(--first-font-color);
+    color: #fff;
 }
 .header-nav ul {
     margin: 0;
@@ -50,7 +50,7 @@
 }
 
 .header-nav .menu-icon .nav-icon {
-    background: #333;
+    background: #fff;
     display: block;
     height: 2px;
     position: relative;
@@ -60,7 +60,7 @@
 
 .header-nav .menu-icon .nav-icon:before,
 .header-nav .menu-icon .nav-icon:after {
-    background: #333;
+    background: #fff;
     content: '';
     display: block;
     height: 100%;
@@ -85,6 +85,8 @@
 
 .header-nav .menu-btn:checked ~ .menu {
     max-height: 240px;
+    position: absolute;
+    z-index: 0;
 }
 
 .header-nav .menu-btn:checked ~ .menu-icon .nav-icon {
@@ -103,8 +105,6 @@
 .header-nav .menu-btn:checked ~ .menu-icon:not(.steps) .nav-icon:after {
     top: 0;
 }
-
-/*   */
 
 /* 48em = 768x */
 
