@@ -6,21 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/3d-party/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Testas</title>
 </head>
 <header>
-    <img src="./img/Logo.png" alt="the logo image">
-    <nav>
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">Portfolio</a>
-        <a href="#" class="nav-link">Services</a>
-        <a href="#" class="nav-link">Contact</a>
+    <nav class="header-nav">
+        <img src="./img/Logo.png" alt="the logo image" class="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"> <span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Portfolio</a></li>
+            <li><a href="#" class="nav-link">Services</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
     </nav>
-
     <div class="header-description">
         <h2 class="section-title">Welcome</h2>
         <h1 class="main-title">Lorem ipsum dolor sit amet consectetur.</h1>
-        <p class="header-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quibusdam repudiandae repellendus repellat.
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam quibusdam repudiandae repellendus repellat.
             Ipsum, nesciunt? Cupiditate fugit at incidunt esse
             velit minus neque odio laudantium natus?
         </p>
@@ -30,9 +35,12 @@
 </header>
 
 <body>
-    <h2 class="section-title">Partners</h2>
-    <h1 class="main-title">Lorem, ipsum dolor.</h1>
-    <p class="partners-description"></p>
+    <div class="body-description">
+        <h2 class="section-title">Partners</h2>
+        <h1 class="main-title">Lorem, ipsum dolor.</h1>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    </div>
     <div>
         <img src="./img/1-google.png" alt="Google Logo">
         <img src="./img/2-microsoft.png" alt="Microsoft Logo">
