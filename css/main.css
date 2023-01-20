@@ -7,13 +7,6 @@
 @import './components/nav-bar.css';
 
 root {
-    --main-bg: #74c69d;
-    --secondary-by: #fff;
-    --btn-background-1: #fff;
-    --btn-background-2: #000;
-    --first-font-color: #fff;
-    --second-font-color: #000;
-    --third-font-color: #74c69d;
     --main-font: (font-family: 'Work Sans', sans-serif);
     --secondary-font: (font-family: 'Crimson Text', serif);
 }
@@ -36,62 +29,35 @@ body {
 
 header {
     background-color: #74c69d;
+    color: #fff;
     padding: 0 20px;
     text-align: left;
     margin-bottom: 30px;
 }
 
 h2 {
-    font-family: #fff;
+    font-family: var(--main-font);
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 h1 {
-    font-family: #fff;
-    font-size: 28px;
+    font-family: var(--secondary-font);
+    font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 p {
     text-align: center;
-    font-family: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: var(--main-font);
     font-weight: 400;
-}
-
-/* Responsive */
-
-
-    .main .main-title {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-
-    .main .brands {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    footer {
-        padding: 50px;
-        display: block;
-        line-height: 5px;
-        text-align: center;
-    }
-    footer .fa-icons {
-        float: left;
-    }
-
-    .fa-icons .fa {
-        line-height: 5px;
-        margin-left: 25px;
-    }
-
-    footer .footer-description {
-        float: right;
-    }
+    margin-bottom: 25px;
 }

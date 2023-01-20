@@ -2,45 +2,43 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .body-description .section-title {
     color: #74c69d;
-    margin-bottom: 10px;
 }
 
-.body-description > .main-title {
-    font-size: 23px;
-    margin-bottom: 10px;
-}
-
-.body-description > .main-description .body-description .description {
+.body-description .description {
     color: #000;
-    font-size: 18px;
-    line-height: 25px;
 }
+
 .main .button {
     text-align: center;
 }
 
-/* Brand Logo's  */
-
-body .main .body-description {
-    background-color: #fff;
-}
-.brands {
-    background-color: #fff;
-}
+/* Brands Logo's  */
 
 body .brands {
-    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .brands img {
     margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+    .main .main-title {
+        font-size: 30px;
+    }
+
+    @media (min-width: 1200px) {
+        .main .main-title {
+            font-size: 35px;
+        }
+    }
 }

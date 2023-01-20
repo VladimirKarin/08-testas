@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    padding: 30px;
+    padding: 50px;
     background-color: #74c69d;
     color: #fff;
 }
@@ -9,29 +9,35 @@ footer .fa-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 16px;
     padding: 30px 60px 20px;
 }
 
 footer .footer-description {
     text-align: center;
-    font-size: 15px;
-    padding: 0 25px 30px;
+    padding: 0 25px 20px;
+    margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
     footer {
         display: inline-block;
     }
+
     .footer-description {
         margin-top: 30px;
         float: right;
     }
 
     .fa-icons {
+        font-size: 20px;
         display: block;
         float: left;
     }
     .fa {
         margin-left: 20px;
     }
+}
+
+@media (min-width: 992px) {
 }
